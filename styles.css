@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 img {
     max-width: 100%;
@@ -10,7 +11,7 @@ img {
 
 
 .try {
-    padding-left: 130px;
+    padding-left: 120px;
     padding-top: 250px;
     background-color: #e3bbb6;
     background-color: #e3bbb6;
@@ -217,7 +218,7 @@ body {
 #card-inside {
     font-size: 1.1em;
     line-height: 1.4;
-    font-family: 'Nobile';
+    font-family: 'Caveat', sans-serif;
     color: #331717;
     font-style: italic;
     background-color: #ffefef;
@@ -234,10 +235,10 @@ p:first-child {
 }
 
 p.signed {
-    margin-top: 1.5em;
+    /* margin-top: 1.5em; */
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
 #card-front {
@@ -269,7 +270,7 @@ p.signed {
     font-family: 'Nobile', sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     padding: .5em;
     border: none;
     cursor: pointer;
@@ -489,4 +490,8 @@ footer {
     color: #F22;
     outline: none;
     font-size: 40px;
+}
+
+#open {
+    font-size: 17px;
 }
