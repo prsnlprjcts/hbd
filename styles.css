@@ -426,3 +426,45 @@ footer {
     position: relative;
     top: -450px;
 }
+
+
+@media (max-width: 768px) {
+    .try {
+        padding-left: 20px;
+        padding-top: 50px;
+        font-size: 40px;
+    }
+
+    .wrap {
+        padding: 1em;
+    }
+
+    /* #card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    /* #card-inside,
+    #card-front {
+        width: 100%;
+    } */
+
+    #card h1 {
+        font-size: 40px;
+    }
+
+    .photoposition {
+        width: 100%;
+        margin-top: 20px; /* Add margin to separate the text and photo */
+    }
+
+    #card-inside {
+        order: 1; /* Set the order to 1 to place it below #card-front
+    } 
+
+    /* .wrap {
+        height: auto;
+        width: auto;
+    } */
+}
