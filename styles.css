@@ -460,7 +460,7 @@ footer {
     }
 
     #card-inside {
-        order: 1; /* Set the order to 1 to place it below #card-front
+        order: 1; 
     } 
 
     /* .wrap {
