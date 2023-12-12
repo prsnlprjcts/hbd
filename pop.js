@@ -42,4 +42,4 @@ document.getElementById('popup-container').addEventListener('click', function(ev
     event.stopPropagation();
 });
 
-document.getElementById('popup-video').volume = 0.3;
+document.getElementById('popup-video').volume = 0.5;
